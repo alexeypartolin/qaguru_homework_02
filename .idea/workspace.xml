@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d59f85d-cf70-4da1-8dca-67513c4b6da0" name="Changes" comment="testbase added and FirstTest.java deleted">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5d59f85d-cf70-4da1-8dca-67513c4b6da0" name="Changes" comment="Configuration.browser was disabled">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652387757430</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Configuration.browser was disabled">
+      <created>1652388249139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652388249139</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +174,7 @@
     <MESSAGE value="build.gradle added" />
     <MESSAGE value="delete SomeNewTest.java class" />
     <MESSAGE value="testbase added and FirstTest.java deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="testbase added and FirstTest.java deleted" />
+    <MESSAGE value="Configuration.browser was disabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration.browser was disabled" />
   </component>
 </project>
