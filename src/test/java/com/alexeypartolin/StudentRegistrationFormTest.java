@@ -13,16 +13,10 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class StudentRegistrationFormTest {
-
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.browserSize = "1920x1080";
-    }
+public class StudentRegistrationFormTest extends TestBase {
 
     @Test
     void newTest() {
-
         open("https://demoqa.com/automation-practice-form");
         $("#userForm").$("#firstName").setValue("Alexey");
         $("#userForm").$("#lastName").setValue("Partolin");
@@ -45,7 +39,7 @@ public class StudentRegistrationFormTest {
         $("#stateCity-wrapper").$(byText("NCR")).click();
         $("#city").click();
         $("#react-select-4-input").setValue("Noida").pressEnter();
-        $("#submit").click();
+        $("#submit").scrollTo().click();
 
         // Asserts
 
@@ -53,8 +47,5 @@ public class StudentRegistrationFormTest {
         $(".table-responsive").shouldHave(text("Alexey"), text("Partolin"), text("Alexey"),
                 text("alexeypartolin@yahoo.com"), text("01 July,2021"), text("Male"), text("Sports, Music"), text("NCR Noida"),
                 text("9163322170"), text("homeAlone.jpeg"), text("Ovchinnikovskaya наб., 6 стр1, Москва, 19128"));
-
-
-        sleep(2000);
     }
 }
