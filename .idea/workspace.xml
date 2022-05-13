@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d59f85d-cf70-4da1-8dca-67513c4b6da0" name="Changes" comment="Configuration.browser was disabled">
+    <list default="true" id="5d59f85d-cf70-4da1-8dca-67513c4b6da0" name="Changes" comment="Configuration.browser added">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/StudentRegistrationFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/StudentRegistrationFormTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +79,7 @@
       <recent name="$PROJECT_DIR$/gradle" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.StudentRegistrationFormTest">
     <configuration name="StudentRegistrationFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -96,9 +101,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="StudentRegistrationFormTest.newTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.alexeypartolin.StudentRegistrationFormTest.newTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.StudentRegistrationFormTest" />
+        <item itemvalue="Gradle.StudentRegistrationFormTest.newTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652388249139</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Configuration.browser added">
+      <created>1652388769308</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652388769308</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +209,7 @@
     <MESSAGE value="delete SomeNewTest.java class" />
     <MESSAGE value="testbase added and FirstTest.java deleted" />
     <MESSAGE value="Configuration.browser was disabled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration.browser was disabled" />
+    <MESSAGE value="Configuration.browser added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration.browser added" />
   </component>
 </project>

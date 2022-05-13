@@ -2,6 +2,7 @@ package com.alexeypartolin;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -25,8 +26,9 @@ public class StudentRegistrationFormTest extends TestBase {
         $(By.id("userNumber")).setValue("9163322170");
         $(By.id("subjectsInput")).setValue("Computer").pressEnter();
         $("#subjectsContainer").shouldHave(text("Computer Science"));
-        File pic = new File("src/test/resources/upload-folder/homeAlone.jpeg");
-        $("#uploadPicture").uploadFile(pic);
+//        File pic = new File("src/test/resources/upload-folder/homeAlone.jpeg");
+//        $("#uploadPicture").uploadFile(pic);
+        $("#uploadPicture").uploadFromClasspath("upload-folder/homeAlone.jpeg");
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").selectOption("July");
         $(".react-datepicker__year-select").selectOption("2021");
