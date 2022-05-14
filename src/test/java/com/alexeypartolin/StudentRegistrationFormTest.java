@@ -6,10 +6,13 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import com.codeborne.selenide.*;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
+import java.io.DataInputStream;
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.*;
@@ -21,6 +24,7 @@ import static io.qameta.allure.Allure.step;
 public class StudentRegistrationFormTest extends TestBase {
 
     @Test
+    @DisplayName("Successful fill registration test")
     public void newTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
@@ -87,4 +91,11 @@ public class StudentRegistrationFormTest extends TestBase {
                     text("9163322170"), text("homeAlone.jpeg"), text("Ovchinnikovskaya наб., 6 стр1, Москва, 19128"));
         });
     }
+
+    @Test
+    @DisplayName("Assertion test")
+    public void assertTest() {
+        Assertions.assertTrue(5 > 0);
+    }
+
 }
