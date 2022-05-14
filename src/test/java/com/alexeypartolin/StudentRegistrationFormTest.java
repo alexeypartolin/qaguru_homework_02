@@ -46,6 +46,8 @@ public class StudentRegistrationFormTest extends TestBase {
         $("#stateCity-wrapper").$(byText("NCR")).click();
         $("#city").click();
         $("#react-select-4-input").setValue("Noida").pressEnter();
+        executeJavaScript("$('footer').remove()"); // убираем рекламный баннер который мешает кликнуть на кнопку submit
+        executeJavaScript("$('fixedban').remove()");
         $("#submit").scrollTo().click();
 
         // Asserts
