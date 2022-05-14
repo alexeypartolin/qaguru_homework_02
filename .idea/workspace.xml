@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d59f85d-cf70-4da1-8dca-67513c4b6da0" name="Changes" comment="add Listener">
+    <list default="true" id="5d59f85d-cf70-4da1-8dca-67513c4b6da0" name="Changes" comment="remove footer and fixedbar via javascript">
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/StudentRegistrationFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/StudentRegistrationFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alexeypartolin/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
       <recent name="$PROJECT_DIR$/gradle" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StudentRegistrationFormTest">
+  <component name="RunManager" selected="Gradle.qaguru_homework_02 [allureServe]">
     <configuration name="StudentRegistrationFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -204,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StudentRegistrationFormTest" />
-        <item itemvalue="Gradle.qaguru_homework_02 [test]" />
         <item itemvalue="Gradle.qaguru_homework_02 [allureServe]" />
-        <item itemvalue="Gradle.qaguru_homework_02 [downloadAllure]" />
+        <item itemvalue="Gradle.StudentRegistrationFormTest" />
         <item itemvalue="Gradle.StudentRegistrationFormTest.newTest" />
+        <item itemvalue="Gradle.qaguru_homework_02 [test]" />
+        <item itemvalue="Gradle.qaguru_homework_02 [downloadAllure]" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652527891816</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="remove footer and fixedbar via javascript">
+      <created>1652529074528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652529074528</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,6 +317,7 @@
     <MESSAGE value="Configuration.browser added" />
     <MESSAGE value="browser changed" />
     <MESSAGE value="add Listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Listener" />
+    <MESSAGE value="remove footer and fixedbar via javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove footer and fixedbar via javascript" />
   </component>
 </project>
