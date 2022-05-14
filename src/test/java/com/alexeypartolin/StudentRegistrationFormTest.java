@@ -5,15 +5,20 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import com.codeborne.selenide.*;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Attachment;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 import java.io.DataInputStream;
 import java.io.File;
+import java.nio.charset.StandardCharsets;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
@@ -67,7 +72,6 @@ public class StudentRegistrationFormTest extends TestBase {
         });
         step("Ввод адреса", () -> {
             $("#currentAddress").setValue("Ovchinnikovskaya наб., 6 стр1, Москва, 19128");
-            //$("#submit").scrollTo();
         });
         step("Выбор штата и города", () -> {
             $("#state").scrollTo().click();
@@ -91,11 +95,4 @@ public class StudentRegistrationFormTest extends TestBase {
                     text("9163322170"), text("homeAlone.jpeg"), text("Ovchinnikovskaya наб., 6 стр1, Москва, 19128"));
         });
     }
-
-    @Test
-    @DisplayName("Assertion test")
-    public void assertTest() {
-        Assertions.assertTrue(5 > 0);
-    }
-
 }
