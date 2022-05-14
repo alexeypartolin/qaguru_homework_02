@@ -63,10 +63,10 @@ public class StudentRegistrationFormTest extends TestBase {
         });
         step("Ввод адреса", () -> {
             $("#currentAddress").setValue("Ovchinnikovskaya наб., 6 стр1, Москва, 19128");
-            $("#submit").scrollTo();
+            //$("#submit").scrollTo();
         });
         step("Выбор штата и города", () -> {
-            $("#state").click();
+            $("#state").scrollTo().click();
             $("#stateCity-wrapper").$(byText("NCR")).click();
             $("#city").click();
             $("#react-select-4-input").setValue("Noida").pressEnter();
