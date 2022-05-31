@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alexeypartolin.StudentRegistrationFormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-14T14:51:47" hostname="MacBook-Pro-Alexey.local" time="24.861">
+  <properties/>
+  <testcase name="Successful fill registration test" classname="com.alexeypartolin.StudentRegistrationFormTest" time="24.861"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[мая 14, 2022 5:51:48 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+мая 14, 2022 5:51:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
